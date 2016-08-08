@@ -23,9 +23,9 @@ makeCacheMatrix <- function(x = matrix()) {
         getinverse <- function() i
         
         # Return Value of makeCacheMatrix function:
-        matrix(setmatrix = setmatrix, getmatrix = getmatrix,
+        matrix(data=c(setmatrix = setmatrix, getmatrix = getmatrix,
                setinverse = setinverse,
-               getinverse = getinverse)
+               getinverse = getinverse),2,2)  
 
 }
 
